@@ -1,0 +1,9 @@
+__pycache__
+.git
+.gitignore
+.venv
+venv
+*.log
+artifacts/
+data/raw/
+data/processed/

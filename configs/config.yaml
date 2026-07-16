@@ -1,0 +1,36 @@
+# Model Configuration
+model:
+  vision_encoder:
+    type: "resnet50"
+    pretrained: true
+    output_dim: 512
+  
+  text_encoder:
+    type: "bert"
+    pretrained: true
+    output_dim: 512
+  
+  fusion_model:
+    fusion_type: "concat"
+    hidden_dim: 256
+    num_classes: 4
+
+# Training Configuration
+training:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 0.0001
+  optimizer: "adam"
+  loss_function: "bce"
+  device: "cuda"
+
+
+# Data Configuration
+data:
+  train_path: data/splits/train.csv   # ✅ ADD THIS
+  val_path: data/splits/train.csv     # (temporary same use kar lo)
+  test_path: data/splits/train.csv    # (temporary same use kar lo)
+  num_workers: 4
+  image_size: 224
+
+
