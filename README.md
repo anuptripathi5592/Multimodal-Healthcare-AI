@@ -59,7 +59,7 @@ Multimodal-Healthcare-AI/
 ## 🚀 Installation
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/anuptripathi5592/Multimodal-Healthcare-AI.git
 cd Multimodal-Healthcare-AI
 
 pip install -r requirements.txt
