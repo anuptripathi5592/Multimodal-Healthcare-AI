@@ -144,6 +144,10 @@ The trained model checkpoint is hosted separately on Hugging Face to avoid stori
 
 ![Application Home](screenshots/home.png)
 
+### Prediction Results
+
+![Prediction Results](screenshots/prediction.png)
+
 ## 🔮 Future Improvements
 
 - Improve model evaluation and validation.
